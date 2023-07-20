@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-text-color);
+  line-height: 1.4rem;
+}
+nav {
+  background-color: #f3faff;
+  box-shadow: 0 0 4px #bbd0e2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  right: 0;
+  padding: 15px;
+  height: 60px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav {
+  font-size: large;
+  justify-content:center;
+  gap:20px;
+  z-index:99;
+}
+.nav-link {
+  color: var(--primary-text-color) !important;
+  font-family: "Roboto", sans-serif;
+  cursor:pointer;
+  font-weight: 600 ;
+}
+.nav-link.active{
+  color:var(--accent-color) !important;
+}
+.nav-link:hover{
+  color:rgb(32, 152, 200) !important;
+}
+.btn-outline-primary:hover{
+  background-color: var(--accent-color-dark) !important;
+  color: #fff !important;
+}
+.btn-outline-primary{
+  border-color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
+}
+.card-img-top{
+  height:200px;
+  width:500px;
+  overflow: hidden;
+}
+
+.card-body h4{
+  font-size:1rem !important;
+  font-family:'Poppins',sans-serif;
+}
+.card-title{
+  margin-bottom: .7rem !important;
+  height: 40px;
+}
+.card {
+  margin: 40px;
+  min-width:18rem !important;
+  padding:0 !important;
+  transition: all 0.3s ease;
+}
+.card-body{
+  row-gap:20px !important;
+}
+.card-body p{
+  font-size:0.9rem !important;
+}
+.news-source{
+  font-size: small;
+  height:25px;
+}
+.card:hover {
+  box-shadow: 0 0 4px var(--primary-text-color);
+  transform:translateY(-2px);
+}
+.cards-container {
+  display: flex;
+   row-gap: 20px;
+  width:100%;
+  justify-content: center!important;
+}
+
+.btn-primary{
+  margin-bottom:5px !important;
+  background-color: var(--accent-color) !important;
+}
+.btn-primary:hover{
+  background-color: var(--accent-color-dark) !important;
+}
+.btn-section{
+  display: flex;
+  justify-content: space-between;
+  margin:40px;
+  
+}
